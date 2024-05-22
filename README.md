@@ -15,11 +15,13 @@ Finally, create the Linux Virtual Machine. The VM's name should be "salah-vm". T
 
 Every resource should be created in "northeurope" location, and the name of the terraform resources can be arbitrary.
 
-To test your code, first run a "terraform init", then a "terraform plan", and if the output of the plan operation seems good, then run a "terraform apply".
+To test your code, first run an "az login" command, in the browser login with your email address. Then run a "terraform init", then a "terraform plan", and if the output of the plan operation seems good, then run a "terraform apply".
 
 Please commit and push your code to the repository, so I can have a look at it.
 
 The necessary documentations to solve the task can be found below.
+
+https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
 
 https://developer.hashicorp.com/terraform/tutorials/azure-get-started
 
